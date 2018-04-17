@@ -1,0 +1,20 @@
+
+Installation of the Mapbox Navigation SDK for iOS
+->Create an Ios App in Xcode, named Mapbox_demo on the Desktop
+-> In the console cd Destop > cd Mapbox_demo : sudo gem install cocoapods
+=> Create in the folder Mapbox_demo -> Creation of a file name PodFile
+-> Open PodFile in Atom and paste pod 'MapboxNavigation', '~> 0.16'
+# Pods for Mapbox_demo
+  pod 'MapboxNavigation', '~> 0.16'
+-> Open the console In the console cd Destop > cd Mapbox_demo : pod repo update && pod install
+=> Downloading dependencies
+Installing Mapbox-iOS-SDK (3.7.6)
+Installing MapboxCoreNavigation (0.16.2)
+Installing MapboxDirections.swift (0.19.1)
+Installing MapboxMobileEvents (0.4.0)
+Installing MapboxNavigation (0.16.2)
+Installing MapboxSpeech (0.0.1)
+Installing Polyline (4.2.0)
+Installing Solar (2.1.0)
+Installing Turf (0.1.1)
+Generating Pods project

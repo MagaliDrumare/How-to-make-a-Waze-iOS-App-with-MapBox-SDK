@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxSpeech" "${PODS_CONFIGURATION_BUILD_DIR}/Polyline" "${PODS_CONFIGURATION_BUILD_DIR}/Solar" "${PODS_CONFIGURATION_BUILD_DIR}/Turf" "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift/MapboxDirections.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation/MapboxNavigation.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapboxSpeech/MapboxSpeech.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Polyline/Polyline.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Solar/Solar.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Turf/Turf.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Mapbox" -framework "MapboxCoreNavigation" -framework "MapboxDirections" -framework "MapboxMobileEvents" -framework "MapboxNavigation" -framework "MapboxSpeech" -framework "Polyline" -framework "Solar" -framework "Turf"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

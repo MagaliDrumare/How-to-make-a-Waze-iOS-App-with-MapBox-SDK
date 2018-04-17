@@ -1,0 +1,84 @@
+/* Dismiss button title on the steps view */
+"DISMISS_STEPS_TITLE" = "Close";
+
+/* End Navigation Button Text */
+"END_NAVIGATION" = "End Navigation";
+
+/* Title used for arrival */
+"END_OF_ROUTE_ARRIVED" = "You have arrived";
+
+/* Comment Placeholder Text */
+"END_OF_ROUTE_TITLE" = "How can we improve?";
+
+/* Error message when the SDK is unable to read a spoken instruction. */
+"FAILED_INSTRUCTION" = "Unable to read instruction aloud.";
+
+/* Indicates a faster route was found */
+"FASTER_ROUTE_FOUND" = "Faster Route Found";
+
+/* Feedback type for Bad Route */
+"FEEDBACK_BAD_ROUTE" = "Bad \nRoute";
+
+/* Feedback type for Confusing Instruction */
+"FEEDBACK_CONFUSING_INSTRUCTION" = "Confusing\nInstruction";
+
+/* Feedback type for Other Map Issue Issue */
+"FEEDBACK_GENERAL_ISSUE" = "Other\nMap Issue";
+
+/* Feedback type for Missing Exit */
+"FEEDBACK_MISSING_EXIT" = "Missing\nExit";
+
+/* Feedback type for Missing Road */
+"FEEDBACK_MISSING_ROAD" = "Missing\nRoad";
+
+/* Feedback type for a maneuver that is Not Allowed */
+"FEEDBACK_NOT_ALLOWED" = "Not\nAllowed";
+
+/* Feedback type for Report Traffic */
+"FEEDBACK_REPORT_TRAFFIC" = "Report\nTraffic";
+
+/* Feedback type for Road Closed */
+"FEEDBACK_ROAD_CLOSURE" = "Road\nClosed";
+
+/* Message confirming that the user has successfully sent feedback */
+"FEEDBACK_THANK_YOU" = "Thank you for your report!";
+
+/* Title of view controller for sending feedback */
+"FEEDBACK_TITLE" = "Report Problem";
+
+/* Format for displaying the first two major ways */
+"LEG_MAJOR_WAYS_FORMAT" = "%1$@ and %2$@";
+
+/* Format string for a short distance or time less than a minimum threshold; 1 = duration remaining */
+"LESS_THAN" = "<%@";
+
+/* Accessibility value of label indicating the absence of a rating */
+"NO_RATING" = "No rating set.";
+
+/* Rating Reset To Zero Accessability Hint */
+"RATING_ACCESSIBILITY_RESET" = "Tap to reset the rating to zero.";
+
+/* Format for accessibility label of button for setting a rating; 1 = number of stars */
+"RATING_ACCESSIBILITY_SET" = "Set %ld-star rating";
+
+/* Format for accessibility value of label indicating the existing rating; 1 = number of stars */
+"RATING_STARS_FORMAT" = "%ld star(s) set.";
+
+/* Title on button that appears when a reroute occurs */
+"REROUTE_REPORT_TITLE" = "Report Problem";
+
+/* Indicates that rerouting is in progress */
+"REROUTING" = "Rerouting…";
+
+/* Button title for resume tracking */
+"RESUME" = "Resume";
+
+/* The text of a banner that appears during turn-by-turn navigation when route simulation is enabled. */
+"USER_IN_SIMULATION_MODE" = "Simulating Navigation at %d×";
+
+/* Format for displaying destination and intermediate waypoints; 1 = source ; 2 = destinations */
+"WAYPOINT_DESTINATION_VIA_WAYPOINTS_FORMAT" = "%1$@, via %2$@";
+
+/* Format for displaying start and endpoint for leg; 1 = source ; 2 = destination */
+"WAYPOINT_SOURCE_DESTINATION_FORMAT" = "%1$@ and %2$@";
+
